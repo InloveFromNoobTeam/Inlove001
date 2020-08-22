@@ -1,14 +1,21 @@
 body
 {
-    /*background-image: url(https://i.pinimg.com/originals/db/40/28/db4028dd2cfe8686d9ea738599af30db.jpg);*/
+    background-image: url(https://i.pinimg.com/originals/ca/ee/44/caee4430ecca48f9eef850c54bd33363.jpg);
+    background-repeat: no-repeat;
+    background-size: 620px auto;
+    background-position: top center;
     font-style: normal;
+    width: 620px;
+    margin: auto;
 }
 
 .loveday-container
 {
+    position: relative;
+    top: 20px;
     margin: auto;
-    width: 250px;
-    height: 250px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     background-image: linear-gradient(270deg, transparent 50%, #ec8bd7 50%),
     linear-gradient(100deg, #DBDBDB 50%, transparent 50%);
@@ -17,8 +24,8 @@ body
     /**/
 }
 .loveday{
-    width: 220px;
-    height: 220px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     background-color: #e2b9d9;
     margin: auto;
@@ -26,6 +33,110 @@ body
 }
 .loveday-content{
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.loveday-content--p{
+    margin: 0 auto;
+}
+.loveday-content__p--days{
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+}
+.lover-container{
+    margin-top: 250px;
+    display: flex;
+}
+
+.lover-box{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.lover-box__name{
+
+    font-size: 20px;
+    color: rgb(133, 36, 224);
+    margin: auto;
+}
+
+.lover-container__outer{
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;  
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
+
+
+
+.lover-container__outer--boypercent{
+    background-image: linear-gradient(200deg, transparent 50%, #4527cc 50%),
+    linear-gradient(100deg, #DBDBDB 50%, transparent 50%);
+    background-color: #4527cc;
+}
+.lover-container__outer--girlpercent{
+    background-image: linear-gradient(180deg, transparent 50%, #ce1a50 50%),
+    linear-gradient(100deg, #DBDBDB 50%, transparent 50%);
+    background-color: #ce1a50;
+}
+
+
+.lover-container__inner{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    /* background-image:linear-gradient(0, #fff,#fff); */
+    margin: auto;
+
+    display: flex;
+}
+.boy-ava{
+    background:  url(https://i.pinimg.com/736x/31/43/9c/31439c8699350d2bd894f02ae880817a.jpg) no-repeat center / contain, linear-gradient(0, #fff,#fff) ;
+    
+    
+}
+
+.girl-ava{
+    background: url(https://i.pinimg.com/236x/03/ee/31/03ee31f8328f29b680ca38bdd2cf2934.jpg) no-repeat center / contain, linear-gradient(0, #fff,#fff) ;
+   
+}
+
+.heart {
+    background-color: red;
+    display: inline-block;
+    height: 30px;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    transform: rotate(-45deg);
+    width: 30px;
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+  }
+  
+  .heart:before {
+    top: -15px;
+    left: 0;
+  }
+  
+  .heart:after {
+    left: 15px;
+    top: 0;
+  }
